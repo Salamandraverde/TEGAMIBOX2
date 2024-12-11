@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>TegamiBox: Leitura</title>
+    <style>
+        body{
+            background-image: url('fundo.jpeg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        .noticiasbar{
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 36%;
+            margin-top: 20px;
+        }
+        .text{
+            text-align: center;
+            margin-top: 100px;
+        }
+        .carrocel{
+            margin-left: 40%;
+            max-width: 500px;
+            height: auto;
+        }
+        .leituracentro{
+            margin-left: 150px;
+        }
+        .botao-fixo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.icone-botao {
+  width: 60px; 
+  height: 60px; 
+}
+
+.botao-fixo:hover .icone-botao {
+  opacity: 0.8;
+}
+    </style>
+</head>
+<body>
+
+
+    <div class="float-start">
+    <img class="cantoesq" src="floresesq.png" width="500px" height="300px">
+    </div>
+    <img class="leituracentro" src="leituracentro.png" width="600px" height="300px">
+    <div class="float-end">
+    <img class="cantodir" src="floresdir.png" width="600px" height="300px">
+    </div>
+
+
+    <br>
+
+    <img class="text" src="textoavaa.png" width=900px height="700px">
+    
+    <div class="carrocel">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="InicioTegamibox.html">
+            <img src="mangaplus.png" class="d-block w-100" alt="...">
+        </a>
+          </div>
+          <div class="carousel-item">
+            <a href="InicioTegamibox.html">
+            <img src="mugi.png" class="d-block w-100" alt="...">
+        </a>
+          </div>
+          <div class="carousel-item">
+            <a href="InicioTegamibox.html">
+            <img src="bruxinha.png" class="d-block w-100" alt="...">
+        </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+<a href="InicioTegamibox.html">
+    <button class="botao-fixo">
+      <img src="voltarinicio.png" alt="Ícone" class="icone-botao">
+    </button>
+  </a>
+
+</body>
+</html>
